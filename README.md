@@ -224,30 +224,30 @@ Results and models are available in the [model zoo](docs/en/model_zoo.md).
   </tbody>
 </table>
 
-|               | ResNet | PointNet++ | SECOND | DGCNN | RegNetX | DLA | MinkResNet |
-| :-----------: | :----: | :--------: | :----: | :---: | :-----: | :-: | :--------: |
-|    SECOND     |   ✗    |     ✗      |   ✓    |   ✗   |    ✗    |  ✗  |     ✗      |
-| PointPillars  |   ✗    |     ✗      |   ✓    |   ✗   |    ✓    |  ✗  |     ✗      |
-|  FreeAnchor   |   ✗    |     ✗      |   ✗    |   ✗   |    ✓    |  ✗  |     ✗      |
-|    VoteNet    |   ✗    |     ✓      |   ✗    |   ✗   |    ✗    |  ✗  |     ✗      |
-|    H3DNet     |   ✗    |     ✓      |   ✗    |   ✗   |    ✗    |  ✗  |     ✗      |
-|     3DSSD     |   ✗    |     ✓      |   ✗    |   ✗   |    ✗    |  ✗  |     ✗      |
-|    Part-A2    |   ✗    |     ✗      |   ✓    |   ✗   |    ✗    |  ✗  |     ✗      |
-|    MVXNet     |   ✓    |     ✗      |   ✓    |   ✗   |    ✗    |  ✗  |     ✗      |
-|  CenterPoint  |   ✗    |     ✗      |   ✓    |   ✗   |    ✗    |  ✗  |     ✗      |
-|      SSN      |   ✗    |     ✗      |   ✗    |   ✗   |    ✓    |  ✗  |     ✗      |
-|   ImVoteNet   |   ✓    |     ✓      |   ✗    |   ✗   |    ✗    |  ✗  |     ✗      |
-|    FCOS3D     |   ✓    |     ✗      |   ✗    |   ✗   |    ✗    |  ✗  |     ✗      |
-|  PointNet++   |   ✗    |     ✓      |   ✗    |   ✗   |    ✗    |  ✗  |     ✗      |
-| Group-Free-3D |   ✗    |     ✓      |   ✗    |   ✗   |    ✗    |  ✗  |     ✗      |
-|  ImVoxelNet   |   ✓    |     ✗      |   ✗    |   ✗   |    ✗    |  ✗  |     ✗      |
-|    PAConv     |   ✗    |     ✓      |   ✗    |   ✗   |    ✗    |  ✗  |     ✗      |
-|     DGCNN     |   ✗    |     ✗      |   ✗    |   ✓   |    ✗    |  ✗  |     ✗      |
-|     SMOKE     |   ✗    |     ✗      |   ✗    |   ✗   |    ✗    |  ✓  |     ✗      |
-|      PGD      |   ✓    |     ✗      |   ✗    |   ✗   |    ✗    |  ✗  |     ✗      |
-|   MonoFlex    |   ✗    |     ✗      |   ✗    |   ✗   |    ✗    |  ✓  |     ✗      |
-|    SA-SSD     |   ✗    |     ✗      |   ✓    |   ✗   |    ✗    |  ✗  |     ✗      |
-|    FCAF3D     |   ✗    |     ✗      |   ✗    |   ✗   |    ✗    |  ✗  |     ✓      |
+|               | ResNet | PointNet++ | SECOND | DGCNN | RegNetX |  DLA  | MinkResNet |
+| :-----------: | :----: | :--------: | :----: | :---: | :-----: |:-----:| :--------: |
+|    SECOND     |   ✗    |     ✗      |   ✓    |   ✗   |    ✗    |   ✗   |     ✗      |
+| PointPillars  |   ✗    |     ✗      |   ✓    |   ✗   |    ✓    |   ✗   |     ✗      |
+|  FreeAnchor   |   ✗    |     ✗      |   ✗    |   ✗   |    ✓    |   ✗   |     ✗      |
+|    VoteNet    |   ✗    |     ✓      |   ✗    |   ✗   |    ✗    |   ✗   |     ✗      |
+|    H3DNet     |   ✗    |     ✓      |   ✗    |   ✗   |    ✗    |   ✗   |     ✗      |
+|     3DSSD     |   ✗    |     ✓      |   ✗    |   ✗   |    ✗    |   ✗   |     ✗      |
+|    Part-A2    |   ✗    |     ✗      |   ✓    |   ✗   |    ✗    |   ✗   |     ✗      |
+|    MVXNet     |   ✓    |     ✗      |   ✓    |   ✗   |    ✗    |   ✗   |     ✗      |
+|  CenterPoint  |   ✗    |     ✗      |   ✓    |   ✗   |    ✗    |   ✗   |     ✗      |
+|      SSN      |   ✗    |     ✗      |   ✗    |   ✗   |    ✓    |   ✗   |     ✗      |
+|   ImVoteNet   |   ✓    |     ✓      |   ✗    |   ✗   |    ✗    |   ✗   |     ✗      |
+|    FCOS3D     |   ✓    |     ✗      |   ✗    |   ✗   |    ✗    |   ✗   |     ✗      |
+|  PointNet++   |   ✗    |     ✓      |   ✗    |   ✗   |    ✗    |   ✗   |     ✗      |
+| Group-Free-3D |   ✗    |     ✓      |   ✗    |   ✗   |    ✗    |   ✗   |     ✗      |
+|  ImVoxelNet   |   ✓    |     ✗      |   ✗    |   ✗   |    ✗    |   ✗   |     ✗      |
+|    PAConv     |   ✗    |     ✓      |   ✗    |   ✗   |    ✗    |   ✗   |     ✗      |
+|     DGCNN     |   ✗    |     ✗      |   ✗    |   ✓   |    ✗    |   ✗   |     ✗      |
+|     SMOKE     |   ✗    |     ✗      |   ✗    |   ✗   |    ✗    |   ✓   |     ✗      |
+|      PGD      |   ✓    |     ✗      |   ✗    |   ✗   |    ✗    |   ✗   |     ✗      |
+|   MonoFlex    |   ✗    |     ✗      |   ✗    |   ✗   |    ✗    |   ✓   |     ✗      |
+|    SA-SSD     |   ✗    |     ✗      |   ✓    |   ✗   |    ✗    |   ✗   |     ✗      |
+|    FCAF3D     |   ✗    |     ✗      |   ✗    |   ✗   |    ✗    |   ✗   |     ✓      |
 
 **Note:** All the about **300+ models, methods of 40+ papers** in 2D detection supported by [MMDetection](https://github.com/open-mmlab/mmdetection/blob/master/docs/en/model_zoo.md) can be trained or used in this codebase.
 
