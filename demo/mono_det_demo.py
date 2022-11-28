@@ -7,10 +7,10 @@ from mmdet3d.apis import (inference_mono_3d_detector, init_model,
 
 def main():
     parser = ArgumentParser()
-    parser.add_argument('image', help='image file')
-    parser.add_argument('ann', help='ann file')
-    parser.add_argument('config', help='Config file')
-    parser.add_argument('checkpoint', help='Checkpoint file')
+    parser.add_argument('--image', help='image file')
+    parser.add_argument('--ann', help='ann file')
+    parser.add_argument('--config', help='Config file')
+    parser.add_argument('--checkpoint', help='Checkpoint file')
     parser.add_argument(
         '--device', default='cuda:0', help='Device used for inference')
     parser.add_argument(
